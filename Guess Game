@@ -2,7 +2,7 @@ print("Please think of a number between 0 and 100!")
 low = 0
 high = 100
 guess = (high + low)/2
-ans = "h"
+ans = ""
 
 while ans != "c":
     print ("Is your secret number " + str(int(guess)) + "?")
